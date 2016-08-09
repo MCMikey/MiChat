@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B35A3EE01D59660500428F22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35A3EDF1D59660500428F22 /* AppDelegate.swift */; };
+		B35A3EE21D59660500428F22 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35A3EE11D59660500428F22 /* ViewController.swift */; };
+		B35A3EE51D59660500428F22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B35A3EE31D59660500428F22 /* Main.storyboard */; };
+		B35A3EE71D59660500428F22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B35A3EE61D59660500428F22 /* Assets.xcassets */; };
+		B35A3EEA1D59660500428F22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B35A3EE81D59660500428F22 /* LaunchScreen.storyboard */; };
+		B35A3EF51D59660500428F22 /* MiChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35A3EF41D59660500428F22 /* MiChatTests.swift */; };
+		B35A3F001D59660500428F22 /* MiChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35A3EFF1D59660500428F22 /* MiChatUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B35A3EF11D59660500428F22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B35A3ED41D59660500428F22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B35A3EDB1D59660500428F22;
+			remoteInfo = MiChat;
+		};
+		B35A3EFC1D59660500428F22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B35A3ED41D59660500428F22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B35A3EDB1D59660500428F22;
+			remoteInfo = MiChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B35A3EDC1D59660500428F22 /* MiChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B35A3EDF1D59660500428F22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B35A3EE11D59660500428F22 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B35A3EE41D59660500428F22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B35A3EE61D59660500428F22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B35A3EE91D59660500428F22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B35A3EEB1D59660500428F22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B35A3EF01D59660500428F22 /* MiChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B35A3EF41D59660500428F22 /* MiChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiChatTests.swift; sourceTree = "<group>"; };
+		B35A3EF61D59660500428F22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B35A3EFB1D59660500428F22 /* MiChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B35A3EFF1D59660500428F22 /* MiChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiChatUITests.swift; sourceTree = "<group>"; };
+		B35A3F011D59660500428F22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B35A3ED91D59660500428F22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B35A3EED1D59660500428F22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B35A3EF81D59660500428F22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B35A3ED31D59660500428F22 = {
+			isa = PBXGroup;
+			children = (
+				B35A3EDE1D59660500428F22 /* MiChat */,
+				B35A3EF31D59660500428F22 /* MiChatTests */,
+				B35A3EFE1D59660500428F22 /* MiChatUITests */,
+				B35A3EDD1D59660500428F22 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B35A3EDD1D59660500428F22 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B35A3EDC1D59660500428F22 /* MiChat.app */,
+				B35A3EF01D59660500428F22 /* MiChatTests.xctest */,
+				B35A3EFB1D59660500428F22 /* MiChatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B35A3EDE1D59660500428F22 /* MiChat */ = {
+			isa = PBXGroup;
+			children = (
+				B35A3EDF1D59660500428F22 /* AppDelegate.swift */,
+				B35A3EE11D59660500428F22 /* ViewController.swift */,
+				B35A3EE31D59660500428F22 /* Main.storyboard */,
+				B35A3EE61D59660500428F22 /* Assets.xcassets */,
+				B35A3EE81D59660500428F22 /* LaunchScreen.storyboard */,
+				B35A3EEB1D59660500428F22 /* Info.plist */,
+			);
+			path = MiChat;
+			sourceTree = "<group>";
+		};
+		B35A3EF31D59660500428F22 /* MiChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				B35A3EF41D59660500428F22 /* MiChatTests.swift */,
+				B35A3EF61D59660500428F22 /* Info.plist */,
+			);
+			path = MiChatTests;
+			sourceTree = "<group>";
+		};
+		B35A3EFE1D59660500428F22 /* MiChatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B35A3EFF1D59660500428F22 /* MiChatUITests.swift */,
+				B35A3F011D59660500428F22 /* Info.plist */,
+			);
+			path = MiChatUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B35A3EDB1D59660500428F22 /* MiChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B35A3F041D59660500428F22 /* Build configuration list for PBXNativeTarget "MiChat" */;
+			buildPhases = (
+				B35A3ED81D59660500428F22 /* Sources */,
+				B35A3ED91D59660500428F22 /* Frameworks */,
+				B35A3EDA1D59660500428F22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MiChat;
+			productName = MiChat;
+			productReference = B35A3EDC1D59660500428F22 /* MiChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B35A3EEF1D59660500428F22 /* MiChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B35A3F071D59660500428F22 /* Build configuration list for PBXNativeTarget "MiChatTests" */;
+			buildPhases = (
+				B35A3EEC1D59660500428F22 /* Sources */,
+				B35A3EED1D59660500428F22 /* Frameworks */,
+				B35A3EEE1D59660500428F22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B35A3EF21D59660500428F22 /* PBXTargetDependency */,
+			);
+			name = MiChatTests;
+			productName = MiChatTests;
+			productReference = B35A3EF01D59660500428F22 /* MiChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B35A3EFA1D59660500428F22 /* MiChatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B35A3F0A1D59660500428F22 /* Build configuration list for PBXNativeTarget "MiChatUITests" */;
+			buildPhases = (
+				B35A3EF71D59660500428F22 /* Sources */,
+				B35A3EF81D59660500428F22 /* Frameworks */,
+				B35A3EF91D59660500428F22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B35A3EFD1D59660500428F22 /* PBXTargetDependency */,
+			);
+			name = MiChatUITests;
+			productName = MiChatUITests;
+			productReference = B35A3EFB1D59660500428F22 /* MiChatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B35A3ED41D59660500428F22 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = mikey;
+				TargetAttributes = {
+					B35A3EDB1D59660500428F22 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					B35A3EEF1D59660500428F22 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = B35A3EDB1D59660500428F22;
+					};
+					B35A3EFA1D59660500428F22 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = B35A3EDB1D59660500428F22;
+					};
+				};
+			};
+			buildConfigurationList = B35A3ED71D59660500428F22 /* Build configuration list for PBXProject "MiChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B35A3ED31D59660500428F22;
+			productRefGroup = B35A3EDD1D59660500428F22 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B35A3EDB1D59660500428F22 /* MiChat */,
+				B35A3EEF1D59660500428F22 /* MiChatTests */,
+				B35A3EFA1D59660500428F22 /* MiChatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B35A3EDA1D59660500428F22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B35A3EEA1D59660500428F22 /* LaunchScreen.storyboard in Resources */,
+				B35A3EE71D59660500428F22 /* Assets.xcassets in Resources */,
+				B35A3EE51D59660500428F22 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B35A3EEE1D59660500428F22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B35A3EF91D59660500428F22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B35A3ED81D59660500428F22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B35A3EE21D59660500428F22 /* ViewController.swift in Sources */,
+				B35A3EE01D59660500428F22 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B35A3EEC1D59660500428F22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B35A3EF51D59660500428F22 /* MiChatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B35A3EF71D59660500428F22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B35A3F001D59660500428F22 /* MiChatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B35A3EF21D59660500428F22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B35A3EDB1D59660500428F22 /* MiChat */;
+			targetProxy = B35A3EF11D59660500428F22 /* PBXContainerItemProxy */;
+		};
+		B35A3EFD1D59660500428F22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B35A3EDB1D59660500428F22 /* MiChat */;
+			targetProxy = B35A3EFC1D59660500428F22 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B35A3EE31D59660500428F22 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B35A3EE41D59660500428F22 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B35A3EE81D59660500428F22 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B35A3EE91D59660500428F22 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B35A3F021D59660500428F22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B35A3F031D59660500428F22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B35A3F051D59660500428F22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MiChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mikey.MiChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B35A3F061D59660500428F22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MiChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mikey.MiChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B35A3F081D59660500428F22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MiChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mikey.MiChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MiChat.app/MiChat";
+			};
+			name = Debug;
+		};
+		B35A3F091D59660500428F22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MiChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mikey.MiChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MiChat.app/MiChat";
+			};
+			name = Release;
+		};
+		B35A3F0B1D59660500428F22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MiChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mikey.MiChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MiChat;
+			};
+			name = Debug;
+		};
+		B35A3F0C1D59660500428F22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MiChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mikey.MiChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MiChat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B35A3ED71D59660500428F22 /* Build configuration list for PBXProject "MiChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B35A3F021D59660500428F22 /* Debug */,
+				B35A3F031D59660500428F22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B35A3F041D59660500428F22 /* Build configuration list for PBXNativeTarget "MiChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B35A3F051D59660500428F22 /* Debug */,
+				B35A3F061D59660500428F22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B35A3F071D59660500428F22 /* Build configuration list for PBXNativeTarget "MiChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B35A3F081D59660500428F22 /* Debug */,
+				B35A3F091D59660500428F22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B35A3F0A1D59660500428F22 /* Build configuration list for PBXNativeTarget "MiChatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B35A3F0B1D59660500428F22 /* Debug */,
+				B35A3F0C1D59660500428F22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B35A3ED41D59660500428F22 /* Project object */;
+}
