@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "FEB613B5AECCE7B79C4B4862E7E57D75455F4F2B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "9ACE61A36A197E05417E09D98AA4D8DF23225AE3" : 0,
+    "FEB613B5AECCE7B79C4B4862E7E57D75455F4F2B" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "58B8C385-39B3-48A5-9019-78D4AB457855",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "9ACE61A36A197E05417E09D98AA4D8DF23225AE3" : "",
+    "FEB613B5AECCE7B79C4B4862E7E57D75455F4F2B" : "MiChat\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "MiChat",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "MiChat.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/MCMikey\/HXTip.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9ACE61A36A197E05417E09D98AA4D8DF23225AE3"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git.oschina.net:BBJMikey\/MiChat.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "FEB613B5AECCE7B79C4B4862E7E57D75455F4F2B"
+    }
+  ]
+}
