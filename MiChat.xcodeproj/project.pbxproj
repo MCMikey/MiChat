@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B35A3EE01D59660500428F22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35A3EDF1D59660500428F22 /* AppDelegate.swift */; };
-		B35A3EE21D59660500428F22 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35A3EE11D59660500428F22 /* ViewController.swift */; };
-		B35A3EE71D59660500428F22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B35A3EE61D59660500428F22 /* Assets.xcassets */; };
+		B313654F1D65B2F500FC69FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B313654B1D65B2F500FC69FD /* AppDelegate.swift */; };
+		B31365501D65B2F500FC69FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B313654C1D65B2F500FC69FD /* Assets.xcassets */; };
+		B31365511D65B2F500FC69FD /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B313654D1D65B2F500FC69FD /* Info.plist */; };
+		B31365521D65B2F500FC69FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B313654E1D65B2F500FC69FD /* ViewController.swift */; };
 		B35A3EF51D59660500428F22 /* MiChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35A3EF41D59660500428F22 /* MiChatTests.swift */; };
 		B35A3F001D59660500428F22 /* MiChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35A3EFF1D59660500428F22 /* MiChatUITests.swift */; };
 /* End PBXBuildFile section */
@@ -32,11 +33,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B313654B1D65B2F500FC69FD /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B313654C1D65B2F500FC69FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B313654D1D65B2F500FC69FD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B313654E1D65B2F500FC69FD /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B31365531D65B46500FC69FD /* MiChatHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiChatHeader.h; sourceTree = "<group>"; };
 		B35A3EDC1D59660500428F22 /* MiChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B35A3EDF1D59660500428F22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B35A3EE11D59660500428F22 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B35A3EE61D59660500428F22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B35A3EEB1D59660500428F22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B35A3EF01D59660500428F22 /* MiChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B35A3EF41D59660500428F22 /* MiChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiChatTests.swift; sourceTree = "<group>"; };
 		B35A3EF61D59660500428F22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -70,6 +72,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B31365471D65B27400FC69FD /* MiChat */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MiChat;
+			sourceTree = "<group>";
+		};
+		B31365481D65B27400FC69FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B313654B1D65B2F500FC69FD /* AppDelegate.swift */,
+				B313654C1D65B2F500FC69FD /* Assets.xcassets */,
+				B313654D1D65B2F500FC69FD /* Info.plist */,
+				B313654E1D65B2F500FC69FD /* ViewController.swift */,
+				B31365531D65B46500FC69FD /* MiChatHeader.h */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B31365491D65B27400FC69FD /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
 		B35A3ED31D59660500428F22 = {
 			isa = PBXGroup;
 			children = (
@@ -93,10 +121,9 @@
 		B35A3EDE1D59660500428F22 /* MiChat */ = {
 			isa = PBXGroup;
 			children = (
-				B35A3EDF1D59660500428F22 /* AppDelegate.swift */,
-				B35A3EE11D59660500428F22 /* ViewController.swift */,
-				B35A3EE61D59660500428F22 /* Assets.xcassets */,
-				B35A3EEB1D59660500428F22 /* Info.plist */,
+				B31365471D65B27400FC69FD /* MiChat */,
+				B31365491D65B27400FC69FD /* Tool */,
+				B31365481D65B27400FC69FD /* Supporting Files */,
 			);
 			path = MiChat;
 			sourceTree = "<group>";
@@ -223,7 +250,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B35A3EE71D59660500428F22 /* Assets.xcassets in Resources */,
+				B31365511D65B2F500FC69FD /* Info.plist in Resources */,
+				B31365501D65B2F500FC69FD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,8 +276,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B35A3EE21D59660500428F22 /* ViewController.swift in Sources */,
-				B35A3EE01D59660500428F22 /* AppDelegate.swift in Sources */,
+				B31365521D65B2F500FC69FD /* ViewController.swift in Sources */,
+				B313654F1D65B2F500FC69FD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,11 +400,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = MiChat/Info.plist;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/MiChat/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.mikey.MiChat;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mikey.michat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/MiChat/Supporting Files/MiChatHeader.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -384,11 +415,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = MiChat/Info.plist;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/MiChat/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.mikey.MiChat;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mikey.michat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/MiChat/Supporting Files/MiChatHeader.h";
 			};
 			name = Release;
 		};
