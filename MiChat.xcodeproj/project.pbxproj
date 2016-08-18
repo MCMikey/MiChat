@@ -9,9 +9,7 @@
 /* Begin PBXBuildFile section */
 		B35A3EE01D59660500428F22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35A3EDF1D59660500428F22 /* AppDelegate.swift */; };
 		B35A3EE21D59660500428F22 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35A3EE11D59660500428F22 /* ViewController.swift */; };
-		B35A3EE51D59660500428F22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B35A3EE31D59660500428F22 /* Main.storyboard */; };
 		B35A3EE71D59660500428F22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B35A3EE61D59660500428F22 /* Assets.xcassets */; };
-		B35A3EEA1D59660500428F22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B35A3EE81D59660500428F22 /* LaunchScreen.storyboard */; };
 		B35A3EF51D59660500428F22 /* MiChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35A3EF41D59660500428F22 /* MiChatTests.swift */; };
 		B35A3F001D59660500428F22 /* MiChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35A3EFF1D59660500428F22 /* MiChatUITests.swift */; };
 /* End PBXBuildFile section */
@@ -37,9 +35,7 @@
 		B35A3EDC1D59660500428F22 /* MiChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B35A3EDF1D59660500428F22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B35A3EE11D59660500428F22 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B35A3EE41D59660500428F22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B35A3EE61D59660500428F22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B35A3EE91D59660500428F22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B35A3EEB1D59660500428F22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B35A3EF01D59660500428F22 /* MiChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B35A3EF41D59660500428F22 /* MiChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiChatTests.swift; sourceTree = "<group>"; };
@@ -99,9 +95,7 @@
 			children = (
 				B35A3EDF1D59660500428F22 /* AppDelegate.swift */,
 				B35A3EE11D59660500428F22 /* ViewController.swift */,
-				B35A3EE31D59660500428F22 /* Main.storyboard */,
 				B35A3EE61D59660500428F22 /* Assets.xcassets */,
-				B35A3EE81D59660500428F22 /* LaunchScreen.storyboard */,
 				B35A3EEB1D59660500428F22 /* Info.plist */,
 			);
 			path = MiChat;
@@ -229,9 +223,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B35A3EEA1D59660500428F22 /* LaunchScreen.storyboard in Resources */,
 				B35A3EE71D59660500428F22 /* Assets.xcassets in Resources */,
-				B35A3EE51D59660500428F22 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,25 +283,6 @@
 			targetProxy = B35A3EFC1D59660500428F22 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		B35A3EE31D59660500428F22 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B35A3EE41D59660500428F22 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		B35A3EE81D59660500428F22 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B35A3EE91D59660500428F22 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		B35A3F021D59660500428F22 /* Debug */ = {
@@ -400,6 +373,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MiChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mikey.MiChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -411,6 +385,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MiChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mikey.MiChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -482,6 +457,7 @@
 				B35A3F061D59660500428F22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B35A3F071D59660500428F22 /* Build configuration list for PBXNativeTarget "MiChatTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +466,7 @@
 				B35A3F091D59660500428F22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B35A3F0A1D59660500428F22 /* Build configuration list for PBXNativeTarget "MiChatUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +475,7 @@
 				B35A3F0C1D59660500428F22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
