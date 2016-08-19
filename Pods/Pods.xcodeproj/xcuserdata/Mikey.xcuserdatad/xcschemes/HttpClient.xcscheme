@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'DDA0C1996D82AA45A7E5684D'
+               BlueprintIdentifier = 'BB72B2974B7E332F4A7C3DBD'
                BlueprintName = 'HttpClient'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'HttpClient.framework'>

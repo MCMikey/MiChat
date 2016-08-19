@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '6910BCD6D8D591933BC6BA43'
+               BlueprintIdentifier = '9297ED4F16E176ECC4D239DC'
                BlueprintName = 'Pods-MiChat'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'Pods_MiChat.framework'>

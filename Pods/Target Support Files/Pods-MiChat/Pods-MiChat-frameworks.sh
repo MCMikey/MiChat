@@ -85,6 +85,7 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-MiChat/AFNetworking.framework"
+  install_framework "Pods-MiChat/CocoaAsyncSocket.framework"
   install_framework "Pods-MiChat/DZNEmptyDataSet.framework"
   install_framework "Pods-MiChat/EGOCache.framework"
   install_framework "Pods-MiChat/FMDB.framework"
@@ -104,6 +105,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-MiChat/AFNetworking.framework"
+  install_framework "Pods-MiChat/CocoaAsyncSocket.framework"
   install_framework "Pods-MiChat/DZNEmptyDataSet.framework"
   install_framework "Pods-MiChat/EGOCache.framework"
   install_framework "Pods-MiChat/FMDB.framework"

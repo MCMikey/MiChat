@@ -8,10 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		273B923AE12611E777F2D7FD /* Pods_MiChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00AEFD235D064281AB58FABA /* Pods_MiChat.framework */; };
+		A6B3FB4C1D669CFE00CCB9BE /* BaseNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B3FB4B1D669CFE00CCB9BE /* BaseNavigationViewController.swift */; };
+		A6B3FB511D66A78D00CCB9BE /* CustomTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B3FB4E1D66A78D00CCB9BE /* CustomTabBarViewController.swift */; };
+		A6B3FB521D66A78D00CCB9BE /* QFQTabBarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B3FB4F1D66A78D00CCB9BE /* QFQTabBarButton.swift */; };
+		A6B3FB531D66A78D00CCB9BE /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B3FB501D66A78D00CCB9BE /* TabBarView.swift */; };
+		A6B3FB551D66ACAE00CCB9BE /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B3FB541D66ACAE00CCB9BE /* HomeViewController.swift */; };
+		A6B3FB581D66B3B500CCB9BE /* ColorTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B3FB571D66B3B500CCB9BE /* ColorTool.swift */; };
+		A6B3FB5A1D66B77500CCB9BE /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B3FB591D66B77500CCB9BE /* Config.swift */; };
+		A6B3FB5E1D66B94C00CCB9BE /* ChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B3FB5D1D66B94C00CCB9BE /* ChatTableViewCell.swift */; };
+		A6B3FB601D66D44E00CCB9BE /* UILabel+Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B3FB5F1D66D44E00CCB9BE /* UILabel+Base.swift */; };
+		A6B3FB621D66DC2B00CCB9BE /* MiSocketServe.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B3FB611D66DC2B00CCB9BE /* MiSocketServe.swift */; };
 		B313654F1D65B2F500FC69FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B313654B1D65B2F500FC69FD /* AppDelegate.swift */; };
 		B31365501D65B2F500FC69FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B313654C1D65B2F500FC69FD /* Assets.xcassets */; };
 		B31365511D65B2F500FC69FD /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B313654D1D65B2F500FC69FD /* Info.plist */; };
-		B31365521D65B2F500FC69FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B313654E1D65B2F500FC69FD /* ViewController.swift */; };
 		B331C5151D669ACD0064EC7D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B331C5141D669ACD0064EC7D /* LoginViewController.swift */; };
 		B331C5181D669B040064EC7D /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B331C5171D669B040064EC7D /* BaseViewController.swift */; };
 		B35A3EF51D59660500428F22 /* MiChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35A3EF41D59660500428F22 /* MiChatTests.swift */; };
@@ -39,10 +48,19 @@
 		00AEFD235D064281AB58FABA /* Pods_MiChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MiChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BE8240F021C8E60937B2D68 /* Pods-MiChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-MiChat/Pods-MiChat.release.xcconfig"; sourceTree = "<group>"; };
 		68A5B8C58C267C78018A0477 /* Pods-MiChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MiChat/Pods-MiChat.debug.xcconfig"; sourceTree = "<group>"; };
+		A6B3FB4B1D669CFE00CCB9BE /* BaseNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationViewController.swift; sourceTree = "<group>"; };
+		A6B3FB4E1D66A78D00CCB9BE /* CustomTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabBarViewController.swift; sourceTree = "<group>"; };
+		A6B3FB4F1D66A78D00CCB9BE /* QFQTabBarButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QFQTabBarButton.swift; sourceTree = "<group>"; };
+		A6B3FB501D66A78D00CCB9BE /* TabBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		A6B3FB541D66ACAE00CCB9BE /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		A6B3FB571D66B3B500CCB9BE /* ColorTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorTool.swift; sourceTree = "<group>"; };
+		A6B3FB591D66B77500CCB9BE /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		A6B3FB5D1D66B94C00CCB9BE /* ChatTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatTableViewCell.swift; sourceTree = "<group>"; };
+		A6B3FB5F1D66D44E00CCB9BE /* UILabel+Base.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Base.swift"; sourceTree = "<group>"; };
+		A6B3FB611D66DC2B00CCB9BE /* MiSocketServe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MiSocketServe.swift; sourceTree = "<group>"; };
 		B313654B1D65B2F500FC69FD /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B313654C1D65B2F500FC69FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B313654D1D65B2F500FC69FD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B313654E1D65B2F500FC69FD /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B31365531D65B46500FC69FD /* MiChatHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiChatHeader.h; sourceTree = "<group>"; };
 		B331C5141D669ACD0064EC7D /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		B331C5171D669B040064EC7D /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
@@ -81,6 +99,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A6B3FB4D1D66A78200CCB9BE /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				A6B3FB4E1D66A78D00CCB9BE /* CustomTabBarViewController.swift */,
+				A6B3FB4F1D66A78D00CCB9BE /* QFQTabBarButton.swift */,
+				A6B3FB501D66A78D00CCB9BE /* TabBarView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		A6B3FB561D66B38800CCB9BE /* Goods */ = {
+			isa = PBXGroup;
+			children = (
+				A6B3FB571D66B3B500CCB9BE /* ColorTool.swift */,
+				A6B3FB611D66DC2B00CCB9BE /* MiSocketServe.swift */,
+			);
+			path = Goods;
+			sourceTree = "<group>";
+		};
+		A6B3FB5B1D66B90700CCB9BE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A6B3FB5C1D66B90700CCB9BE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A6B3FB5D1D66B94C00CCB9BE /* ChatTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		B31365471D65B27400FC69FD /* MiChat */ = {
 			isa = PBXGroup;
 			children = (
@@ -95,8 +147,8 @@
 				B313654B1D65B2F500FC69FD /* AppDelegate.swift */,
 				B313654C1D65B2F500FC69FD /* Assets.xcassets */,
 				B313654D1D65B2F500FC69FD /* Info.plist */,
-				B313654E1D65B2F500FC69FD /* ViewController.swift */,
 				B31365531D65B46500FC69FD /* MiChatHeader.h */,
+				A6B3FB591D66B77500CCB9BE /* Config.swift */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -104,6 +156,8 @@
 		B31365491D65B27400FC69FD /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				A6B3FB561D66B38800CCB9BE /* Goods */,
+				A6B3FB4D1D66A78200CCB9BE /* UI */,
 				B331C5161D669AE20064EC7D /* BaseClass */,
 			);
 			path = Tool;
@@ -112,6 +166,8 @@
 		B331C5121D669A9F0064EC7D /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				A6B3FB5B1D66B90700CCB9BE /* Model */,
+				A6B3FB5C1D66B90700CCB9BE /* View */,
 				B331C5131D669AB30064EC7D /* Controller */,
 			);
 			path = Home;
@@ -121,6 +177,7 @@
 			isa = PBXGroup;
 			children = (
 				B331C5141D669ACD0064EC7D /* LoginViewController.swift */,
+				A6B3FB541D66ACAE00CCB9BE /* HomeViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -128,7 +185,9 @@
 		B331C5161D669AE20064EC7D /* BaseClass */ = {
 			isa = PBXGroup;
 			children = (
+				A6B3FB5F1D66D44E00CCB9BE /* UILabel+Base.swift */,
 				B331C5171D669B040064EC7D /* BaseViewController.swift */,
+				A6B3FB4B1D669CFE00CCB9BE /* BaseNavigationViewController.swift */,
 			);
 			path = BaseClass;
 			sourceTree = "<group>";
@@ -383,7 +442,16 @@
 			files = (
 				B331C5151D669ACD0064EC7D /* LoginViewController.swift in Sources */,
 				B331C5181D669B040064EC7D /* BaseViewController.swift in Sources */,
-				B31365521D65B2F500FC69FD /* ViewController.swift in Sources */,
+				A6B3FB531D66A78D00CCB9BE /* TabBarView.swift in Sources */,
+				A6B3FB581D66B3B500CCB9BE /* ColorTool.swift in Sources */,
+				A6B3FB511D66A78D00CCB9BE /* CustomTabBarViewController.swift in Sources */,
+				A6B3FB601D66D44E00CCB9BE /* UILabel+Base.swift in Sources */,
+				A6B3FB5E1D66B94C00CCB9BE /* ChatTableViewCell.swift in Sources */,
+				A6B3FB521D66A78D00CCB9BE /* QFQTabBarButton.swift in Sources */,
+				A6B3FB551D66ACAE00CCB9BE /* HomeViewController.swift in Sources */,
+				A6B3FB5A1D66B77500CCB9BE /* Config.swift in Sources */,
+				A6B3FB4C1D669CFE00CCB9BE /* BaseNavigationViewController.swift in Sources */,
+				A6B3FB621D66DC2B00CCB9BE /* MiSocketServe.swift in Sources */,
 				B313654F1D65B2F500FC69FD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

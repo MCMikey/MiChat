@@ -12,6 +12,7 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    var nav: BaseNavigationViewController?
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
@@ -19,8 +20,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.makeKeyAndVisible()
         UIApplication.sharedApplication().setStatusBarStyle(UIStatusBarStyle.LightContent, animated: false)
 
-        let vc = ViewController()
-        window?.rootViewController = vc;
+        let loginVC = LoginViewController()
+        nav = BaseNavigationViewController(rootViewController: loginVC)
+        window?.rootViewController = nav;
         return true
     }
 
