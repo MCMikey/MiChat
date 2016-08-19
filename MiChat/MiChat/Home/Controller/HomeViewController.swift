@@ -22,7 +22,7 @@ class HomeViewController: BaseViewController {
     
     func initView() {
         setNavTitle("MiMi")
-        
+    
         tableView.frame = CGRectMake(0, NavigationBarHeight, ScreenWidth, ScreenHeight - NavigationBarHeight - TabBarHeight)
         tableView.dataSource = self
         tableView.delegate = self

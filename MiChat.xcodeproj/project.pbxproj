@@ -18,6 +18,7 @@
 		A6B3FB5E1D66B94C00CCB9BE /* ChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B3FB5D1D66B94C00CCB9BE /* ChatTableViewCell.swift */; };
 		A6B3FB601D66D44E00CCB9BE /* UILabel+Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B3FB5F1D66D44E00CCB9BE /* UILabel+Base.swift */; };
 		A6B3FB621D66DC2B00CCB9BE /* MiSocketServe.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B3FB611D66DC2B00CCB9BE /* MiSocketServe.swift */; };
+		A6B3FB6F1D6703B900CCB9BE /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B3FB6E1D6703B900CCB9BE /* UserInfo.swift */; };
 		B313654F1D65B2F500FC69FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B313654B1D65B2F500FC69FD /* AppDelegate.swift */; };
 		B31365501D65B2F500FC69FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B313654C1D65B2F500FC69FD /* Assets.xcassets */; };
 		B31365511D65B2F500FC69FD /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B313654D1D65B2F500FC69FD /* Info.plist */; };
@@ -58,6 +59,7 @@
 		A6B3FB5D1D66B94C00CCB9BE /* ChatTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatTableViewCell.swift; sourceTree = "<group>"; };
 		A6B3FB5F1D66D44E00CCB9BE /* UILabel+Base.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Base.swift"; sourceTree = "<group>"; };
 		A6B3FB611D66DC2B00CCB9BE /* MiSocketServe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MiSocketServe.swift; sourceTree = "<group>"; };
+		A6B3FB6E1D6703B900CCB9BE /* UserInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
 		B313654B1D65B2F500FC69FD /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B313654C1D65B2F500FC69FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B313654D1D65B2F500FC69FD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 		A6B3FB5B1D66B90700CCB9BE /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				A6B3FB6E1D6703B900CCB9BE /* UserInfo.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -452,6 +455,7 @@
 				A6B3FB5A1D66B77500CCB9BE /* Config.swift in Sources */,
 				A6B3FB4C1D669CFE00CCB9BE /* BaseNavigationViewController.swift in Sources */,
 				A6B3FB621D66DC2B00CCB9BE /* MiSocketServe.swift in Sources */,
+				A6B3FB6F1D6703B900CCB9BE /* UserInfo.swift in Sources */,
 				B313654F1D65B2F500FC69FD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -578,12 +582,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = NO;
 				INFOPLIST_FILE = "$(SRCROOT)/MiChat/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mikey.michat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/MiChat/Supporting Files/MiChatHeader.h";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "MiChat/Supporting Files/MiChatHeader.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -595,12 +601,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = NO;
 				INFOPLIST_FILE = "$(SRCROOT)/MiChat/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mikey.michat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/MiChat/Supporting Files/MiChatHeader.h";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "MiChat/Supporting Files/MiChatHeader.h";
 			};
 			name = Release;
 		};

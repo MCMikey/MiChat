@@ -18,7 +18,7 @@ class BaseViewController: UIViewController {
     }
     
     private func initView() {
-        view.backgroundColor = UIColor.whiteColor()
+        view.backgroundColor = ColorTool.ColorViewBG()
         automaticallyAdjustsScrollViewInsets = false
     }
     

@@ -83,6 +83,10 @@ class LoginViewController: BaseViewController {
     /// 登录事件
     func clickLogin(sender: UIButton) {
         
+        MiSocketServe.sharedInstance.socketConnectHost("www.paypal.com", port: 443)
+//        MiSocketServe.sharedInstance.socketConnectHost("google.com", port: 80)
+
+        
         let tb = CustomTabBarViewController()
 //        navigationController?.pushViewController(tb, animated: true)
         self.navigationController?.setViewControllers([tb], animated: true)
