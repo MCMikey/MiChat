@@ -19,9 +19,11 @@
 		A6B3FB601D66D44E00CCB9BE /* UILabel+Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B3FB5F1D66D44E00CCB9BE /* UILabel+Base.swift */; };
 		A6B3FB621D66DC2B00CCB9BE /* MiSocketServe.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B3FB611D66DC2B00CCB9BE /* MiSocketServe.swift */; };
 		A6B3FB6F1D6703B900CCB9BE /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B3FB6E1D6703B900CCB9BE /* UserInfo.swift */; };
+		B30BB5591D6AEA7E0098ADA1 /* ChatInterfaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30BB5581D6AEA7E0098ADA1 /* ChatInterfaceViewController.swift */; };
+		B30BB55B1D6AEA900098ADA1 /* ChatInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30BB55A1D6AEA900098ADA1 /* ChatInfo.swift */; };
+		B30BB55D1D6AEAB50098ADA1 /* ChatContentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30BB55C1D6AEAB50098ADA1 /* ChatContentCell.swift */; };
 		B313654F1D65B2F500FC69FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B313654B1D65B2F500FC69FD /* AppDelegate.swift */; };
 		B31365501D65B2F500FC69FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B313654C1D65B2F500FC69FD /* Assets.xcassets */; };
-		B31365511D65B2F500FC69FD /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B313654D1D65B2F500FC69FD /* Info.plist */; };
 		B331C5151D669ACD0064EC7D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B331C5141D669ACD0064EC7D /* LoginViewController.swift */; };
 		B331C5181D669B040064EC7D /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B331C5171D669B040064EC7D /* BaseViewController.swift */; };
 		B35A3EF51D59660500428F22 /* MiChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35A3EF41D59660500428F22 /* MiChatTests.swift */; };
@@ -60,6 +62,9 @@
 		A6B3FB5F1D66D44E00CCB9BE /* UILabel+Base.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Base.swift"; sourceTree = "<group>"; };
 		A6B3FB611D66DC2B00CCB9BE /* MiSocketServe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MiSocketServe.swift; sourceTree = "<group>"; };
 		A6B3FB6E1D6703B900CCB9BE /* UserInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		B30BB5581D6AEA7E0098ADA1 /* ChatInterfaceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatInterfaceViewController.swift; sourceTree = "<group>"; };
+		B30BB55A1D6AEA900098ADA1 /* ChatInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatInfo.swift; sourceTree = "<group>"; };
+		B30BB55C1D6AEAB50098ADA1 /* ChatContentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatContentCell.swift; sourceTree = "<group>"; };
 		B313654B1D65B2F500FC69FD /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B313654C1D65B2F500FC69FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B313654D1D65B2F500FC69FD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -136,9 +141,44 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		B30BB5541D6AEA060098ADA1 /* ChatInterface */ = {
+			isa = PBXGroup;
+			children = (
+				B30BB5551D6AEA5C0098ADA1 /* Controller */,
+				B30BB5561D6AEA5C0098ADA1 /* Model */,
+				B30BB5571D6AEA5C0098ADA1 /* View */,
+			);
+			path = ChatInterface;
+			sourceTree = "<group>";
+		};
+		B30BB5551D6AEA5C0098ADA1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B30BB5581D6AEA7E0098ADA1 /* ChatInterfaceViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B30BB5561D6AEA5C0098ADA1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B30BB55A1D6AEA900098ADA1 /* ChatInfo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B30BB5571D6AEA5C0098ADA1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B30BB55C1D6AEAB50098ADA1 /* ChatContentCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		B31365471D65B27400FC69FD /* MiChat */ = {
 			isa = PBXGroup;
 			children = (
+				B30BB5541D6AEA060098ADA1 /* ChatInterface */,
 				B331C5121D669A9F0064EC7D /* Home */,
 			);
 			path = MiChat;
@@ -369,7 +409,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B31365511D65B2F500FC69FD /* Info.plist in Resources */,
 				B31365501D65B2F500FC69FD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -448,10 +487,13 @@
 				A6B3FB531D66A78D00CCB9BE /* TabBarView.swift in Sources */,
 				A6B3FB581D66B3B500CCB9BE /* ColorTool.swift in Sources */,
 				A6B3FB511D66A78D00CCB9BE /* CustomTabBarViewController.swift in Sources */,
+				B30BB55D1D6AEAB50098ADA1 /* ChatContentCell.swift in Sources */,
+				B30BB55B1D6AEA900098ADA1 /* ChatInfo.swift in Sources */,
 				A6B3FB601D66D44E00CCB9BE /* UILabel+Base.swift in Sources */,
 				A6B3FB5E1D66B94C00CCB9BE /* ChatTableViewCell.swift in Sources */,
 				A6B3FB521D66A78D00CCB9BE /* QFQTabBarButton.swift in Sources */,
 				A6B3FB551D66ACAE00CCB9BE /* HomeViewController.swift in Sources */,
+				B30BB5591D6AEA7E0098ADA1 /* ChatInterfaceViewController.swift in Sources */,
 				A6B3FB5A1D66B77500CCB9BE /* Config.swift in Sources */,
 				A6B3FB4C1D669CFE00CCB9BE /* BaseNavigationViewController.swift in Sources */,
 				A6B3FB621D66DC2B00CCB9BE /* MiSocketServe.swift in Sources */,

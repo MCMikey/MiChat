@@ -55,6 +55,14 @@ extension HomeViewController: UITableViewDelegate {
     func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
         return 70
     }
+    
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath)
+    {
+        let vc = ChatInterfaceViewController()
+        vc.titleName = "扫掉门前雪"
+        navigationController?.pushViewController(vc, animated: true)
+    }
+
 }
 
 

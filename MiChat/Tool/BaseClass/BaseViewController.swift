@@ -12,6 +12,8 @@ class BaseViewController: UIViewController {
 
     var titleLabel: UILabel?
     
+    var titleName = ""
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         initView()
