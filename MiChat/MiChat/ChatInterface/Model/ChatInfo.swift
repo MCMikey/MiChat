@@ -8,6 +8,21 @@
 
 import UIKit
 
-class ChatInfo: NSObject {
+class ChatInfo: BaseModel {
 
+    /// 谁的名字
+    var chaterName = ""
+    
+    /// 好友Id
+    var chaterId = ""
+    
+    /// 聊天内容
+    var chatContent = ""
+    
+    /// 聊天内容时间
+    var chatTime = ""
+    
+    /// 谁的头像
+    var chaterHead = ""
+    
 }

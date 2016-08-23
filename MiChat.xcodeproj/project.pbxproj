@@ -26,6 +26,7 @@
 		B31365501D65B2F500FC69FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B313654C1D65B2F500FC69FD /* Assets.xcassets */; };
 		B331C5151D669ACD0064EC7D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B331C5141D669ACD0064EC7D /* LoginViewController.swift */; };
 		B331C5181D669B040064EC7D /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B331C5171D669B040064EC7D /* BaseViewController.swift */; };
+		B336041A1D6BDF60006FB7C6 /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33604191D6BDF60006FB7C6 /* BaseModel.swift */; };
 		B35A3EF51D59660500428F22 /* MiChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35A3EF41D59660500428F22 /* MiChatTests.swift */; };
 		B35A3F001D59660500428F22 /* MiChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35A3EFF1D59660500428F22 /* MiChatUITests.swift */; };
 /* End PBXBuildFile section */
@@ -71,6 +72,7 @@
 		B31365531D65B46500FC69FD /* MiChatHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiChatHeader.h; sourceTree = "<group>"; };
 		B331C5141D669ACD0064EC7D /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		B331C5171D669B040064EC7D /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		B33604191D6BDF60006FB7C6 /* BaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
 		B35A3EDC1D59660500428F22 /* MiChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B35A3EF01D59660500428F22 /* MiChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B35A3EF41D59660500428F22 /* MiChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiChatTests.swift; sourceTree = "<group>"; };
@@ -231,6 +233,7 @@
 				A6B3FB5F1D66D44E00CCB9BE /* UILabel+Base.swift */,
 				B331C5171D669B040064EC7D /* BaseViewController.swift */,
 				A6B3FB4B1D669CFE00CCB9BE /* BaseNavigationViewController.swift */,
+				B33604191D6BDF60006FB7C6 /* BaseModel.swift */,
 			);
 			path = BaseClass;
 			sourceTree = "<group>";
@@ -482,6 +485,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B336041A1D6BDF60006FB7C6 /* BaseModel.swift in Sources */,
 				B331C5151D669ACD0064EC7D /* LoginViewController.swift in Sources */,
 				B331C5181D669B040064EC7D /* BaseViewController.swift in Sources */,
 				A6B3FB531D66A78D00CCB9BE /* TabBarView.swift in Sources */,

@@ -10,6 +10,8 @@ import UIKit
 
 class CustomTabBarViewController: UITabBarController, QFQTabBarDelegate {
 
+    var titleLabel: UILabel?
+
     /**
     *  输入对应的数字，以便跳转界面 数字1为身边，2为我的，3为更多
     */
@@ -32,13 +34,15 @@ class CustomTabBarViewController: UITabBarController, QFQTabBarDelegate {
     
     override func viewWillAppear(animated: Bool) {
 
+        navigationController?.setNavigationBarHidden(false, animated: true)
+
         self.initViewPage()
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        
+        automaticallyAdjustsScrollViewInsets = false
         self.initView()
     }
     
@@ -48,16 +52,16 @@ class CustomTabBarViewController: UITabBarController, QFQTabBarDelegate {
     func initView() {
         
         let infoVC = HomeViewController()
-        let nav = BaseNavigationViewController(rootViewController: infoVC)
-        self.addChildViewController(nav)
+//        let nav = BaseNavigationViewController(rootViewController: infoVC)
+        self.addChildViewController(infoVC)
         
         let videoVC = BaseViewController()
-        let nav1 = BaseNavigationViewController(rootViewController: videoVC)
-        addChildViewController(nav1)
+//        let nav1 = BaseNavigationViewController(rootViewController: videoVC)
+        addChildViewController(videoVC)
         
         let heroVC = BaseViewController()
-        let nav2 = BaseNavigationViewController(rootViewController: heroVC)
-        addChildViewController(nav2)
+//        let nav2 = BaseNavigationViewController(rootViewController: heroVC)
+        addChildViewController(heroVC)
         
 //        self.view.backgroundColor = UIColor.darkGrayColor()
 //        self.tabBarView! = TabBarView(frame: CGRectMake(0, kPHONE_HEIGHT - 49, kPHONE_WIDTH, 49))
@@ -75,6 +79,7 @@ class CustomTabBarViewController: UITabBarController, QFQTabBarDelegate {
     func initViewPage() {
         self.selectedIndex = self.iPage
         self.tabBarView.selectedBtn(self.iPage)
+        setNavTitleOfIndex()
     }
     
     /**
@@ -87,6 +92,7 @@ class CustomTabBarViewController: UITabBarController, QFQTabBarDelegate {
         print("此时下标为\(to)")
         self.selectedIndex = to
         self.iPage = to
+        setNavTitleOfIndex()
     }
     
     // 查询红点是否显示
@@ -117,14 +123,38 @@ class CustomTabBarViewController: UITabBarController, QFQTabBarDelegate {
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    // MARK: - 自定义title
+    
+    func setNavTitleOfIndex() {
+        switch selectedIndex {
+        case 0:
+            setNavTitle("MiMi")
+            break
+        case 1:
+            setNavTitle("联系人")
+            break
+        case 2:
+            setNavTitle("发现")
+            break
+        case 3:
+            setNavTitle("我")
+            break
+        default: break
+            
+        }
     }
-    */
+    
+    /// 导航栏title（系统）
+    func setNavTitle(navTitle: String?) {
+        if navTitle != nil && navTitle != "" {
+            titleLabel = UILabel(frame: CGRectMake(0, 0, 100, 44))
+            titleLabel!.textColor = UIColor.whiteColor()
+            titleLabel!.font = UIFont.boldSystemFontOfSize(17)
+            titleLabel!.textAlignment = .Center
+            titleLabel!.text = navTitle
+            navigationItem.titleView = titleLabel!
+        }
+    }
+
 
 }
