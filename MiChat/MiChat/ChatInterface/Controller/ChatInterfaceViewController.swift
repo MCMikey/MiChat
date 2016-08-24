@@ -110,7 +110,6 @@ class ChatInterfaceViewController: BaseViewController {
         tableView.reloadData()
     }
 
-    
     func initView() {
         setNavTitle(titleName, haveBackButton: true)
         tableView.frame = CGRectMake(0, NavigationBarHeight, ScreenWidth, ScreenHeight - NavigationBarHeight)

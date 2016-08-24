@@ -22,6 +22,7 @@
 		B30BB5591D6AEA7E0098ADA1 /* ChatInterfaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30BB5581D6AEA7E0098ADA1 /* ChatInterfaceViewController.swift */; };
 		B30BB55B1D6AEA900098ADA1 /* ChatInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30BB55A1D6AEA900098ADA1 /* ChatInfo.swift */; };
 		B30BB55D1D6AEAB50098ADA1 /* ChatContentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30BB55C1D6AEAB50098ADA1 /* ChatContentCell.swift */; };
+		B30F08BE1D6D80050032C614 /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = B30F08BD1D6D80050032C614 /* UINavigationController+FDFullscreenPopGesture.m */; };
 		B313654F1D65B2F500FC69FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B313654B1D65B2F500FC69FD /* AppDelegate.swift */; };
 		B31365501D65B2F500FC69FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B313654C1D65B2F500FC69FD /* Assets.xcassets */; };
 		B331C5151D669ACD0064EC7D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B331C5141D669ACD0064EC7D /* LoginViewController.swift */; };
@@ -66,6 +67,8 @@
 		B30BB5581D6AEA7E0098ADA1 /* ChatInterfaceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatInterfaceViewController.swift; sourceTree = "<group>"; };
 		B30BB55A1D6AEA900098ADA1 /* ChatInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatInfo.swift; sourceTree = "<group>"; };
 		B30BB55C1D6AEAB50098ADA1 /* ChatContentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatContentCell.swift; sourceTree = "<group>"; };
+		B30F08BC1D6D80050032C614 /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
+		B30F08BD1D6D80050032C614 /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
 		B313654B1D65B2F500FC69FD /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B313654C1D65B2F500FC69FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B313654D1D65B2F500FC69FD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -177,6 +180,15 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		B30F08BB1D6D7FFE0032C614 /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+				B30F08BC1D6D80050032C614 /* UINavigationController+FDFullscreenPopGesture.h */,
+				B30F08BD1D6D80050032C614 /* UINavigationController+FDFullscreenPopGesture.m */,
+			);
+			path = SDK;
+			sourceTree = "<group>";
+		};
 		B31365471D65B27400FC69FD /* MiChat */ = {
 			isa = PBXGroup;
 			children = (
@@ -201,6 +213,7 @@
 		B31365491D65B27400FC69FD /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				B30F08BB1D6D7FFE0032C614 /* SDK */,
 				A6B3FB561D66B38800CCB9BE /* Goods */,
 				A6B3FB4D1D66A78200CCB9BE /* UI */,
 				B331C5161D669AE20064EC7D /* BaseClass */,
@@ -486,6 +499,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B336041A1D6BDF60006FB7C6 /* BaseModel.swift in Sources */,
+				B30F08BE1D6D80050032C614 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
 				B331C5151D669ACD0064EC7D /* LoginViewController.swift in Sources */,
 				B331C5181D669B040064EC7D /* BaseViewController.swift in Sources */,
 				A6B3FB531D66A78D00CCB9BE /* TabBarView.swift in Sources */,
