@@ -9,17 +9,22 @@ pod "SDWebImage", "~> 3.7"
 pod "MJRefresh", "~> 2.4"
 pod "WebViewJavascriptBridge", "~> 4.1"
 pod "WSProgressHUD", "~> 1.1"
-pod "UzysAssetsPickerController", "~> 0.9"
+pod "TZImagePickerController"
+#pod "UzysAssetsPickerController", "~> 0.9"
 pod "FMDB", "~> 2.5"
 pod 'EGOCache', '~> 2.1.3'
 pod 'DZNEmptyDataSet'
-pod 'MBProgressHUD'
+#pod 'MBProgressHUD'
 pod 'HttpClient' 
 pod 'AFNetworking'
 pod 'SwiftyJSON'
 pod 'SnapKit'
 pod 'JSPatch'
 pod 'CocoaAsyncSocket'
+pod "GrandStore"
+pod "ViewChaos"
+pod 'GrandTime'
+
 end
 
 target 'MiChatTests' do
