@@ -72,10 +72,10 @@
 		A6B3FB6E1D6703B900CCB9BE /* UserInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
 		AE5B1FFA1D784917008A75EB /* GrandAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GrandAlert.swift; sourceTree = "<group>"; };
 		AE5B1FFB1D784917008A75EB /* GrandCue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GrandCue.swift; sourceTree = "<group>"; };
-		AE5B20001D784927008A75EB /* GrandModel+Convert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "GrandModel+Convert.swift"; sourceTree = "<group>"; };
-		AE5B20011D784927008A75EB /* GrandModel+Map.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "GrandModel+Map.swift"; sourceTree = "<group>"; };
-		AE5B20021D784927008A75EB /* GrandModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GrandModel.swift; sourceTree = "<group>"; };
-		AE5B20031D784927008A75EB /* GrandType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GrandType.swift; sourceTree = "<group>"; };
+		AE5B20001D784927008A75EB /* GrandModel+Convert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "GrandModel+Convert.swift"; path = "../../GrandModel/GrandModel+Convert.swift"; sourceTree = "<group>"; };
+		AE5B20011D784927008A75EB /* GrandModel+Map.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "GrandModel+Map.swift"; path = "../../GrandModel/GrandModel+Map.swift"; sourceTree = "<group>"; };
+		AE5B20021D784927008A75EB /* GrandModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GrandModel.swift; path = ../../GrandModel/GrandModel.swift; sourceTree = "<group>"; };
+		AE5B20031D784927008A75EB /* GrandType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GrandType.swift; path = ../../GrandModel/GrandType.swift; sourceTree = "<group>"; };
 		B30BB5581D6AEA7E0098ADA1 /* ChatInterfaceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatInterfaceViewController.swift; sourceTree = "<group>"; };
 		B30BB55A1D6AEA900098ADA1 /* ChatInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatInfo.swift; sourceTree = "<group>"; };
 		B30BB55C1D6AEAB50098ADA1 /* ChatContentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatContentCell.swift; sourceTree = "<group>"; };
