@@ -19,6 +19,12 @@
 		A6B3FB601D66D44E00CCB9BE /* UILabel+Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B3FB5F1D66D44E00CCB9BE /* UILabel+Base.swift */; };
 		A6B3FB621D66DC2B00CCB9BE /* MiSocketServe.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B3FB611D66DC2B00CCB9BE /* MiSocketServe.swift */; };
 		A6B3FB6F1D6703B900CCB9BE /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B3FB6E1D6703B900CCB9BE /* UserInfo.swift */; };
+		AE5B1FFC1D784917008A75EB /* GrandAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5B1FFA1D784917008A75EB /* GrandAlert.swift */; };
+		AE5B1FFD1D784917008A75EB /* GrandCue.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5B1FFB1D784917008A75EB /* GrandCue.swift */; };
+		AE5B20051D784927008A75EB /* GrandModel+Convert.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5B20001D784927008A75EB /* GrandModel+Convert.swift */; };
+		AE5B20061D784927008A75EB /* GrandModel+Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5B20011D784927008A75EB /* GrandModel+Map.swift */; };
+		AE5B20071D784927008A75EB /* GrandModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5B20021D784927008A75EB /* GrandModel.swift */; };
+		AE5B20081D784927008A75EB /* GrandType.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5B20031D784927008A75EB /* GrandType.swift */; };
 		B30BB5591D6AEA7E0098ADA1 /* ChatInterfaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30BB5581D6AEA7E0098ADA1 /* ChatInterfaceViewController.swift */; };
 		B30BB55B1D6AEA900098ADA1 /* ChatInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30BB55A1D6AEA900098ADA1 /* ChatInfo.swift */; };
 		B30BB55D1D6AEAB50098ADA1 /* ChatContentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30BB55C1D6AEAB50098ADA1 /* ChatContentCell.swift */; };
@@ -64,6 +70,12 @@
 		A6B3FB5F1D66D44E00CCB9BE /* UILabel+Base.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Base.swift"; sourceTree = "<group>"; };
 		A6B3FB611D66DC2B00CCB9BE /* MiSocketServe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MiSocketServe.swift; sourceTree = "<group>"; };
 		A6B3FB6E1D6703B900CCB9BE /* UserInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		AE5B1FFA1D784917008A75EB /* GrandAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GrandAlert.swift; sourceTree = "<group>"; };
+		AE5B1FFB1D784917008A75EB /* GrandCue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GrandCue.swift; sourceTree = "<group>"; };
+		AE5B20001D784927008A75EB /* GrandModel+Convert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "GrandModel+Convert.swift"; path = "../../GrandModel/GrandModel+Convert.swift"; sourceTree = "<group>"; };
+		AE5B20011D784927008A75EB /* GrandModel+Map.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "GrandModel+Map.swift"; path = "../../GrandModel/GrandModel+Map.swift"; sourceTree = "<group>"; };
+		AE5B20021D784927008A75EB /* GrandModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GrandModel.swift; path = ../../GrandModel/GrandModel.swift; sourceTree = "<group>"; };
+		AE5B20031D784927008A75EB /* GrandType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GrandType.swift; path = ../../GrandModel/GrandType.swift; sourceTree = "<group>"; };
 		B30BB5581D6AEA7E0098ADA1 /* ChatInterfaceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatInterfaceViewController.swift; sourceTree = "<group>"; };
 		B30BB55A1D6AEA900098ADA1 /* ChatInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatInfo.swift; sourceTree = "<group>"; };
 		B30BB55C1D6AEAB50098ADA1 /* ChatContentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatContentCell.swift; sourceTree = "<group>"; };
@@ -124,6 +136,8 @@
 		A6B3FB561D66B38800CCB9BE /* Goods */ = {
 			isa = PBXGroup;
 			children = (
+				AE5B1FFE1D784927008A75EB /* GrandModel */,
+				AE5B1FF91D784917008A75EB /* GrandCue */,
 				A6B3FB571D66B3B500CCB9BE /* ColorTool.swift */,
 				A6B3FB611D66DC2B00CCB9BE /* MiSocketServe.swift */,
 			);
@@ -144,6 +158,27 @@
 				A6B3FB5D1D66B94C00CCB9BE /* ChatTableViewCell.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		AE5B1FF91D784917008A75EB /* GrandCue */ = {
+			isa = PBXGroup;
+			children = (
+				AE5B1FFA1D784917008A75EB /* GrandAlert.swift */,
+				AE5B1FFB1D784917008A75EB /* GrandCue.swift */,
+			);
+			path = GrandCue;
+			sourceTree = "<group>";
+		};
+		AE5B1FFE1D784927008A75EB /* GrandModel */ = {
+			isa = PBXGroup;
+			children = (
+				AE5B20001D784927008A75EB /* GrandModel+Convert.swift */,
+				AE5B20011D784927008A75EB /* GrandModel+Map.swift */,
+				AE5B20021D784927008A75EB /* GrandModel.swift */,
+				AE5B20031D784927008A75EB /* GrandType.swift */,
+			);
+			name = GrandModel;
+			path = GrandCue/GrandModel;
 			sourceTree = "<group>";
 		};
 		B30BB5541D6AEA060098ADA1 /* ChatInterface */ = {
@@ -498,8 +533,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE5B20051D784927008A75EB /* GrandModel+Convert.swift in Sources */,
 				B336041A1D6BDF60006FB7C6 /* BaseModel.swift in Sources */,
 				B30F08BE1D6D80050032C614 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
+				AE5B1FFD1D784917008A75EB /* GrandCue.swift in Sources */,
 				B331C5151D669ACD0064EC7D /* LoginViewController.swift in Sources */,
 				B331C5181D669B040064EC7D /* BaseViewController.swift in Sources */,
 				A6B3FB531D66A78D00CCB9BE /* TabBarView.swift in Sources */,
@@ -508,15 +545,19 @@
 				B30BB55D1D6AEAB50098ADA1 /* ChatContentCell.swift in Sources */,
 				B30BB55B1D6AEA900098ADA1 /* ChatInfo.swift in Sources */,
 				A6B3FB601D66D44E00CCB9BE /* UILabel+Base.swift in Sources */,
+				AE5B20071D784927008A75EB /* GrandModel.swift in Sources */,
 				A6B3FB5E1D66B94C00CCB9BE /* ChatTableViewCell.swift in Sources */,
 				A6B3FB521D66A78D00CCB9BE /* QFQTabBarButton.swift in Sources */,
 				A6B3FB551D66ACAE00CCB9BE /* HomeViewController.swift in Sources */,
 				B30BB5591D6AEA7E0098ADA1 /* ChatInterfaceViewController.swift in Sources */,
 				A6B3FB5A1D66B77500CCB9BE /* Config.swift in Sources */,
 				A6B3FB4C1D669CFE00CCB9BE /* BaseNavigationViewController.swift in Sources */,
+				AE5B20081D784927008A75EB /* GrandType.swift in Sources */,
 				A6B3FB621D66DC2B00CCB9BE /* MiSocketServe.swift in Sources */,
 				A6B3FB6F1D6703B900CCB9BE /* UserInfo.swift in Sources */,
+				AE5B20061D784927008A75EB /* GrandModel+Map.swift in Sources */,
 				B313654F1D65B2F500FC69FD /* AppDelegate.swift in Sources */,
+				AE5B1FFC1D784917008A75EB /* GrandAlert.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
