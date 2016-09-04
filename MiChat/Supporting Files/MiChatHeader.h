@@ -8,7 +8,7 @@
 
 #ifndef MiChatHeader_h
 #define MiChatHeader_h
-
+#import <FMDB/FMDB.h>
 //#import "AFNetworking.h"
 
 
