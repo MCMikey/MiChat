@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'C7024D77C196A3E06990B893'
+               BlueprintIdentifier = 'F312BD69FD9F43CC8A4FF42B'
                BlueprintName = 'ViewChaos'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'ViewChaos.framework'>

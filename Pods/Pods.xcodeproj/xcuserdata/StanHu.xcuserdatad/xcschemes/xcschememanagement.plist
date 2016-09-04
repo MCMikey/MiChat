@@ -9,11 +9,6 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>CocoaAsyncSocket.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>DZNEmptyDataSet.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -84,6 +79,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>SwiftWebSocket.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>SwiftyJSON.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -117,17 +117,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>0E8E7E174989F05CC0A487D1201CB4D7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>16FB872D0D2D4BA0F378AB34D47CF95F</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>193A2CB446B643CD4F814FEA2CC2AF90</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>1BD507425EC3A868D29BE09E508F758C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -142,12 +137,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>346AD9654D427D995D7B6E6C92A16AE2</key>
+		<key>264FA95FA4E674F362AB70F015FCAC16</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>56F0EBFFBE3BBD27E8BCAECBB5B1300B</key>
+		<key>431CF7E514ECDE502A5774C78B4A2686</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -157,17 +152,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>59A596E5C3CF87694D0A2B79FB7A77AE</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>6847254D016329D4A531D34ED2B6DF81</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>7258518427A7B66AE99439310BD7A051</key>
+		<key>6BABD549E2BED45AB2C8571EC4A8FF7A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -177,7 +167,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>8C0A02A4C858AECA9C8637C9E992F2A7</key>
+		<key>7DDC84D4F9D64795D1F34A4521E9309E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -187,12 +177,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A31C65EFB663F2E8F11614ACE9D5A456</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>AE300D8BE6115DBCEFD40B94E5CDAF6A</key>
+		<key>AFE75CB272AC02968EDEC4162DBA90E8</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -202,12 +187,27 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B1B7738E410D5D0BCC85F6A75A7871F0</key>
+		<key>BB39EABCCF3DC0C641FDF4D165DBDF9D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B37E19CA872A7535725D1E1946E5C271</key>
+		<key>BB8E9DB86AD0E7FBE2851D507309265F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CCC1A71083D68EA9A09EE7A3D8AB43D1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E4E49D93E1AD5512ABA2B0364EB9BBDA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EC2378C05C93A00AAB5E146772039206</key>
 		<dict>
 			<key>primary</key>
 			<true/>

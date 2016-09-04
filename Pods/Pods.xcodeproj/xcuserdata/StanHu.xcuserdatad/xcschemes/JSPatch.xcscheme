@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '67084C50DE1B74D26EB2E5D4'
+               BlueprintIdentifier = '917ADABAFF1F565C1B28AD31'
                BlueprintName = 'JSPatch'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'JSPatch.framework'>

@@ -20,7 +20,7 @@ pod 'AFNetworking'
 pod 'SwiftyJSON'
 pod 'SnapKit'
 pod 'JSPatch'
-pod 'CocoaAsyncSocket'
+pod 'SwiftWebSocket'
 pod "GrandStore"
 pod "ViewChaos"
 pod 'GrandTime'
