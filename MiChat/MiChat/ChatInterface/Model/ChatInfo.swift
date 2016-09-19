@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ChatInfo: BaseModel {
+class ChatInfo: GrandModel {
 
     /// 谁的名字
     var chaterName = ""

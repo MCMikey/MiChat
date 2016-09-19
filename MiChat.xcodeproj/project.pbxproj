@@ -25,6 +25,7 @@
 		AE5B20061D784927008A75EB /* GrandModel+Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5B20011D784927008A75EB /* GrandModel+Map.swift */; };
 		AE5B20071D784927008A75EB /* GrandModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5B20021D784927008A75EB /* GrandModel.swift */; };
 		AE5B20081D784927008A75EB /* GrandType.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5B20031D784927008A75EB /* GrandType.swift */; };
+		AEDB7D8D1D7C2D06004BE015 /* ChatEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDB7D8C1D7C2D06004BE015 /* ChatEnum.swift */; };
 		B30BB5591D6AEA7E0098ADA1 /* ChatInterfaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30BB5581D6AEA7E0098ADA1 /* ChatInterfaceViewController.swift */; };
 		B30BB55B1D6AEA900098ADA1 /* ChatInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30BB55A1D6AEA900098ADA1 /* ChatInfo.swift */; };
 		B30BB55D1D6AEAB50098ADA1 /* ChatContentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30BB55C1D6AEAB50098ADA1 /* ChatContentCell.swift */; };
@@ -33,7 +34,6 @@
 		B31365501D65B2F500FC69FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B313654C1D65B2F500FC69FD /* Assets.xcassets */; };
 		B331C5151D669ACD0064EC7D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B331C5141D669ACD0064EC7D /* LoginViewController.swift */; };
 		B331C5181D669B040064EC7D /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B331C5171D669B040064EC7D /* BaseViewController.swift */; };
-		B336041A1D6BDF60006FB7C6 /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33604191D6BDF60006FB7C6 /* BaseModel.swift */; };
 		B35A3EF51D59660500428F22 /* MiChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35A3EF41D59660500428F22 /* MiChatTests.swift */; };
 		B35A3F001D59660500428F22 /* MiChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35A3EFF1D59660500428F22 /* MiChatUITests.swift */; };
 /* End PBXBuildFile section */
@@ -72,10 +72,11 @@
 		A6B3FB6E1D6703B900CCB9BE /* UserInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
 		AE5B1FFA1D784917008A75EB /* GrandAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GrandAlert.swift; sourceTree = "<group>"; };
 		AE5B1FFB1D784917008A75EB /* GrandCue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GrandCue.swift; sourceTree = "<group>"; };
-		AE5B20001D784927008A75EB /* GrandModel+Convert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "GrandModel+Convert.swift"; path = "../../GrandModel/GrandModel+Convert.swift"; sourceTree = "<group>"; };
-		AE5B20011D784927008A75EB /* GrandModel+Map.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "GrandModel+Map.swift"; path = "../../GrandModel/GrandModel+Map.swift"; sourceTree = "<group>"; };
-		AE5B20021D784927008A75EB /* GrandModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GrandModel.swift; path = ../../GrandModel/GrandModel.swift; sourceTree = "<group>"; };
-		AE5B20031D784927008A75EB /* GrandType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GrandType.swift; path = ../../GrandModel/GrandType.swift; sourceTree = "<group>"; };
+		AE5B20001D784927008A75EB /* GrandModel+Convert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "GrandModel+Convert.swift"; sourceTree = "<group>"; };
+		AE5B20011D784927008A75EB /* GrandModel+Map.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "GrandModel+Map.swift"; sourceTree = "<group>"; };
+		AE5B20021D784927008A75EB /* GrandModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GrandModel.swift; sourceTree = "<group>"; };
+		AE5B20031D784927008A75EB /* GrandType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GrandType.swift; sourceTree = "<group>"; };
+		AEDB7D8C1D7C2D06004BE015 /* ChatEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatEnum.swift; sourceTree = "<group>"; };
 		B30BB5581D6AEA7E0098ADA1 /* ChatInterfaceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatInterfaceViewController.swift; sourceTree = "<group>"; };
 		B30BB55A1D6AEA900098ADA1 /* ChatInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatInfo.swift; sourceTree = "<group>"; };
 		B30BB55C1D6AEAB50098ADA1 /* ChatContentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatContentCell.swift; sourceTree = "<group>"; };
@@ -87,7 +88,6 @@
 		B31365531D65B46500FC69FD /* MiChatHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiChatHeader.h; sourceTree = "<group>"; };
 		B331C5141D669ACD0064EC7D /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		B331C5171D669B040064EC7D /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
-		B33604191D6BDF60006FB7C6 /* BaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
 		B35A3EDC1D59660500428F22 /* MiChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B35A3EF01D59660500428F22 /* MiChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B35A3EF41D59660500428F22 /* MiChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiChatTests.swift; sourceTree = "<group>"; };
@@ -177,8 +177,7 @@
 				AE5B20021D784927008A75EB /* GrandModel.swift */,
 				AE5B20031D784927008A75EB /* GrandType.swift */,
 			);
-			name = GrandModel;
-			path = GrandCue/GrandModel;
+			path = GrandModel;
 			sourceTree = "<group>";
 		};
 		B30BB5541D6AEA060098ADA1 /* ChatInterface */ = {
@@ -203,6 +202,7 @@
 			isa = PBXGroup;
 			children = (
 				B30BB55A1D6AEA900098ADA1 /* ChatInfo.swift */,
+				AEDB7D8C1D7C2D06004BE015 /* ChatEnum.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -281,7 +281,6 @@
 				A6B3FB5F1D66D44E00CCB9BE /* UILabel+Base.swift */,
 				B331C5171D669B040064EC7D /* BaseViewController.swift */,
 				A6B3FB4B1D669CFE00CCB9BE /* BaseNavigationViewController.swift */,
-				B33604191D6BDF60006FB7C6 /* BaseModel.swift */,
 			);
 			path = BaseClass;
 			sourceTree = "<group>";
@@ -534,7 +533,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE5B20051D784927008A75EB /* GrandModel+Convert.swift in Sources */,
-				B336041A1D6BDF60006FB7C6 /* BaseModel.swift in Sources */,
 				B30F08BE1D6D80050032C614 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
 				AE5B1FFD1D784917008A75EB /* GrandCue.swift in Sources */,
 				B331C5151D669ACD0064EC7D /* LoginViewController.swift in Sources */,
@@ -543,6 +541,7 @@
 				A6B3FB581D66B3B500CCB9BE /* ColorTool.swift in Sources */,
 				A6B3FB511D66A78D00CCB9BE /* CustomTabBarViewController.swift in Sources */,
 				B30BB55D1D6AEAB50098ADA1 /* ChatContentCell.swift in Sources */,
+				AEDB7D8D1D7C2D06004BE015 /* ChatEnum.swift in Sources */,
 				B30BB55B1D6AEA900098ADA1 /* ChatInfo.swift in Sources */,
 				A6B3FB601D66D44E00CCB9BE /* UILabel+Base.swift in Sources */,
 				AE5B20071D784927008A75EB /* GrandModel.swift in Sources */,
