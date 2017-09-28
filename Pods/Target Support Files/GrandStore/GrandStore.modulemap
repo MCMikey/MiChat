@@ -1,6 +1,0 @@
-framework module GrandStore {
-  umbrella header "GrandStore-umbrella.h"
-
-  export *
-  module * { export * }
-}

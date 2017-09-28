@@ -1,6 +1,0 @@
-framework module GrandTime {
-  umbrella header "GrandTime-umbrella.h"
-
-  export *
-  module * { export * }
-}
